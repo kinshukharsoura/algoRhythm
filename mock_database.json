@@ -1,0 +1,44 @@
+[
+  {
+    "id": "T1",
+    "dept": "TDMS",
+    "duration_mins": 45,
+    "priority": 100,
+    "depends_on": null
+  },
+  {
+    "id": "T2",
+    "dept": "TMS",
+    "duration_mins": 120,
+    "priority": 95,
+    "depends_on": "T1"
+  },
+  {
+    "id": "T3",
+    "dept": "SMMS",
+    "duration_mins": 60,
+    "priority": 85,
+    "depends_on": null
+  },
+  {
+    "id": "T4",
+    "dept": "TMS",
+    "duration_mins": 90,
+    "priority": 40,
+    "depends_on": null
+  },
+  {
+    "id": "T5",
+    "dept": "SMMS",
+    "duration_mins": 30,
+    "priority": 70,
+    "depends_on": null
+  },
+  {
+    "id": "T6",
+    "dept": "TDMS",
+    "duration_mins": 150,
+    "priority": 30,
+    "depends_on": null
+  }
+]
