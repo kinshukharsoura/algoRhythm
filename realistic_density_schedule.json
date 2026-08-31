@@ -1,0 +1,3901 @@
+{
+  "train_schedule": [
+    {
+      "train_no": "05649",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "11:30:00",
+      "end_day": 3.0,
+      "exit_time": "13:00:00"
+    },
+    {
+      "train_no": "05650",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "01:00:00",
+      "end_day": 2.0,
+      "exit_time": "02:26:00"
+    },
+    {
+      "train_no": "11447",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "02:37:00",
+      "end_day": 2.0,
+      "exit_time": "04:15:00"
+    },
+    {
+      "train_no": "11448",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "14:30:00",
+      "end_day": 1.0,
+      "exit_time": "15:53:00"
+    },
+    {
+      "train_no": "12019",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "06:05:00",
+      "end_day": 1.0,
+      "exit_time": "07:08:00"
+    },
+    {
+      "train_no": "12020",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "19:53:00",
+      "end_day": 1.0,
+      "exit_time": "21:10:00"
+    },
+    {
+      "train_no": "12023",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "14:05:00",
+      "end_day": 1.0,
+      "exit_time": "15:14:00"
+    },
+    {
+      "train_no": "12024",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "12:10:00",
+      "end_day": 1.0,
+      "exit_time": "13:25:00"
+    },
+    {
+      "train_no": "12175",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "17:45:00",
+      "end_day": 1.0,
+      "exit_time": "19:03:00"
+    },
+    {
+      "train_no": "12176",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "05:25:00",
+      "end_day": 2.0,
+      "exit_time": "06:45:00"
+    },
+    {
+      "train_no": "12177",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "17:45:00",
+      "end_day": 1.0,
+      "exit_time": "19:03:00"
+    },
+    {
+      "train_no": "12178",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "05:25:00",
+      "end_day": 2.0,
+      "exit_time": "06:45:00"
+    },
+    {
+      "train_no": "12235",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "12:15:00",
+      "end_day": 2.0,
+      "exit_time": "13:21:00"
+    },
+    {
+      "train_no": "12236",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "10:10:00",
+      "end_day": 2.0,
+      "exit_time": "11:45:00"
+    },
+    {
+      "train_no": "12253",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "23:00:00",
+      "end_day": 3.0,
+      "exit_time": "00:19:00"
+    },
+    {
+      "train_no": "12254",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "21:39:00",
+      "end_day": 1.0,
+      "exit_time": "23:05:00"
+    },
+    {
+      "train_no": "12273",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "13:00:00",
+      "end_day": 1.0,
+      "exit_time": "14:08:00"
+    },
+    {
+      "train_no": "12274",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "05:10:00",
+      "end_day": 2.0,
+      "exit_time": "06:00:00"
+    },
+    {
+      "train_no": "12301",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "16:55:00",
+      "end_day": 1.0,
+      "exit_time": "18:03:00"
+    },
+    {
+      "train_no": "12302",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "08:47:00",
+      "end_day": 2.0,
+      "exit_time": "09:55:00"
+    },
+    {
+      "train_no": "12303",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "08:10:00",
+      "end_day": 1.0,
+      "exit_time": "09:15:00"
+    },
+    {
+      "train_no": "12304",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "15:14:00",
+      "end_day": 2.0,
+      "exit_time": "16:45:00"
+    },
+    {
+      "train_no": "12305",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "14:05:00",
+      "end_day": 1.0,
+      "exit_time": "15:09:00"
+    },
+    {
+      "train_no": "12306",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "11:25:00",
+      "end_day": 2.0,
+      "exit_time": "12:40:00"
+    },
+    {
+      "train_no": "12307",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:30:00",
+      "end_day": 2.0,
+      "exit_time": "00:36:00"
+    },
+    {
+      "train_no": "12307-Slip",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:30:00",
+      "end_day": 2.0,
+      "exit_time": "00:36:00"
+    },
+    {
+      "train_no": "12308",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "02:33:00",
+      "end_day": 3.0,
+      "exit_time": "04:00:00"
+    },
+    {
+      "train_no": "12311",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "19:40:00",
+      "end_day": 1.0,
+      "exit_time": "20:49:00"
+    },
+    {
+      "train_no": "12312",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "06:01:00",
+      "end_day": 3.0,
+      "exit_time": "07:30:00"
+    },
+    {
+      "train_no": "12321",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "22:00:00",
+      "end_day": 1.0,
+      "exit_time": "23:07:00"
+    },
+    {
+      "train_no": "12322",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "10:17:00",
+      "end_day": 3.0,
+      "exit_time": "11:45:00"
+    },
+    {
+      "train_no": "12323",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "18:45:00",
+      "end_day": 1.0,
+      "exit_time": "20:01:00"
+    },
+    {
+      "train_no": "12324",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "04:36:00",
+      "end_day": 2.0,
+      "exit_time": "06:00:00"
+    },
+    {
+      "train_no": "12327",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "13:10:00",
+      "end_day": 1.0,
+      "exit_time": "14:22:00"
+    },
+    {
+      "train_no": "12328",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "01:48:00",
+      "end_day": 3.0,
+      "exit_time": "03:15:00"
+    },
+    {
+      "train_no": "12331",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:55:00",
+      "end_day": 2.0,
+      "exit_time": "01:07:00"
+    },
+    {
+      "train_no": "12332",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "09:54:00",
+      "end_day": 3.0,
+      "exit_time": "11:15:00"
+    },
+    {
+      "train_no": "12333",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "20:00:00",
+      "end_day": 1.0,
+      "exit_time": "21:11:00"
+    },
+    {
+      "train_no": "12334",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "06:33:00",
+      "end_day": 2.0,
+      "exit_time": "07:55:00"
+    },
+    {
+      "train_no": "12337",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "10:10:00",
+      "end_day": 1.0,
+      "exit_time": "11:22:00"
+    },
+    {
+      "train_no": "12337",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "11:24:00",
+      "end_day": 1.0,
+      "exit_time": "12:25:00"
+    },
+    {
+      "train_no": "12338",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "13:10:00",
+      "end_day": 1.0,
+      "exit_time": "14:07:00"
+    },
+    {
+      "train_no": "12338",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "14:09:00",
+      "end_day": 1.0,
+      "exit_time": "15:40:00"
+    },
+    {
+      "train_no": "12339",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "17:20:00",
+      "end_day": 1.0,
+      "exit_time": "18:33:00"
+    },
+    {
+      "train_no": "12340",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "08:52:00",
+      "end_day": 1.0,
+      "exit_time": "10:25:00"
+    },
+    {
+      "train_no": "12341",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "18:20:00",
+      "end_day": 1.0,
+      "exit_time": "19:31:00"
+    },
+    {
+      "train_no": "12342",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "07:11:00",
+      "end_day": 1.0,
+      "exit_time": "08:45:00"
+    },
+    {
+      "train_no": "12343",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "23:46:00",
+      "end_day": 2.0,
+      "exit_time": "00:31:00"
+    },
+    {
+      "train_no": "12343",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "00:34:00",
+      "end_day": 2.0,
+      "exit_time": "04:15:00"
+    },
+    {
+      "train_no": "12343",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "04:25:00",
+      "end_day": 2.0,
+      "exit_time": "06:15:00"
+    },
+    {
+      "train_no": "12343",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "06:17:00",
+      "end_day": 2.0,
+      "exit_time": "08:00:00"
+    },
+    {
+      "train_no": "12343-Slip",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "23:46:00",
+      "end_day": 2.0,
+      "exit_time": "00:31:00"
+    },
+    {
+      "train_no": "12343-Slip",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "00:34:00",
+      "end_day": 2.0,
+      "exit_time": "04:15:00"
+    },
+    {
+      "train_no": "12343-Slip",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "04:25:00",
+      "end_day": 2.0,
+      "exit_time": "06:15:00"
+    },
+    {
+      "train_no": "12343-Slip",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "06:17:00",
+      "end_day": 2.0,
+      "exit_time": "08:00:00"
+    },
+    {
+      "train_no": "12344",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "20:00:00",
+      "end_day": 1.0,
+      "exit_time": "21:09:00"
+    },
+    {
+      "train_no": "12344",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "21:11:00",
+      "end_day": 1.0,
+      "exit_time": "23:45:00"
+    },
+    {
+      "train_no": "12344",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "23:55:00",
+      "end_day": 2.0,
+      "exit_time": "03:13:00"
+    },
+    {
+      "train_no": "12344",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "03:16:00",
+      "end_day": 2.0,
+      "exit_time": "04:08:00"
+    },
+    {
+      "train_no": "12345",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "15:50:00",
+      "end_day": 1.0,
+      "exit_time": "17:07:00"
+    },
+    {
+      "train_no": "12345",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "17:09:00",
+      "end_day": 1.0,
+      "exit_time": "17:54:00"
+    },
+    {
+      "train_no": "12345",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "17:59:00",
+      "end_day": 1.0,
+      "exit_time": "21:30:00"
+    },
+    {
+      "train_no": "12345",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "21:45:00",
+      "end_day": 1.0,
+      "exit_time": "23:35:00"
+    },
+    {
+      "train_no": "12345",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "23:37:00",
+      "end_day": 2.0,
+      "exit_time": "01:40:00"
+    },
+    {
+      "train_no": "12346",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "19:25:00",
+      "end_day": 1.0,
+      "exit_time": "20:32:00"
+    },
+    {
+      "train_no": "12346",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "20:34:00",
+      "end_day": 1.0,
+      "exit_time": "23:30:00"
+    },
+    {
+      "train_no": "12346",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "23:40:00",
+      "end_day": 2.0,
+      "exit_time": "02:50:00"
+    },
+    {
+      "train_no": "12346",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "02:53:00",
+      "end_day": 2.0,
+      "exit_time": "03:46:00"
+    },
+    {
+      "train_no": "12346",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "03:48:00",
+      "end_day": 2.0,
+      "exit_time": "05:10:00"
+    },
+    {
+      "train_no": "12347",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "12:00:00",
+      "end_day": 1.0,
+      "exit_time": "13:15:00"
+    },
+    {
+      "train_no": "12347",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "13:17:00",
+      "end_day": 1.0,
+      "exit_time": "14:15:00"
+    },
+    {
+      "train_no": "12348",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "17:36:00",
+      "end_day": 1.0,
+      "exit_time": "18:35:00"
+    },
+    {
+      "train_no": "12348",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "18:37:00",
+      "end_day": 1.0,
+      "exit_time": "20:15:00"
+    },
+    {
+      "train_no": "12351",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "20:35:00",
+      "end_day": 1.0,
+      "exit_time": "21:45:00"
+    },
+    {
+      "train_no": "12352",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "05:14:00",
+      "end_day": 2.0,
+      "exit_time": "06:35:00"
+    },
+    {
+      "train_no": "12363",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "10:36:00",
+      "end_day": 1.0,
+      "exit_time": "11:25:00"
+    },
+    {
+      "train_no": "12363",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "11:27:00",
+      "end_day": 1.0,
+      "exit_time": "15:05:00"
+    },
+    {
+      "train_no": "12363",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "15:20:00",
+      "end_day": 1.0,
+      "exit_time": "17:35:00"
+    },
+    {
+      "train_no": "12363",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "17:35:00",
+      "end_day": 1.0,
+      "exit_time": "18:50:00"
+    },
+    {
+      "train_no": "12364",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "09:55:00",
+      "end_day": 1.0,
+      "exit_time": "11:13:00"
+    },
+    {
+      "train_no": "12364",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "11:13:00",
+      "end_day": 1.0,
+      "exit_time": "13:20:00"
+    },
+    {
+      "train_no": "12364",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "13:35:00",
+      "end_day": 1.0,
+      "exit_time": "16:48:00"
+    },
+    {
+      "train_no": "12364",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "16:50:00",
+      "end_day": 1.0,
+      "exit_time": "17:45:00"
+    },
+    {
+      "train_no": "12369",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "13:10:00",
+      "end_day": 1.0,
+      "exit_time": "14:22:00"
+    },
+    {
+      "train_no": "12370",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "01:48:00",
+      "end_day": 3.0,
+      "exit_time": "03:15:00"
+    },
+    {
+      "train_no": "12373",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": NaN,
+      "entry_time": "None",
+      "end_day": NaN,
+      "exit_time": "None"
+    },
+    {
+      "train_no": "12374",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": NaN,
+      "entry_time": "None",
+      "end_day": NaN,
+      "exit_time": "None"
+    },
+    {
+      "train_no": "12377",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "00:25:00",
+      "end_day": 2.0,
+      "exit_time": "01:16:00"
+    },
+    {
+      "train_no": "12377",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "01:18:00",
+      "end_day": 2.0,
+      "exit_time": "05:40:00"
+    },
+    {
+      "train_no": "12377",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "05:45:00",
+      "end_day": 2.0,
+      "exit_time": "07:35:00"
+    },
+    {
+      "train_no": "12377",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "07:37:00",
+      "end_day": 2.0,
+      "exit_time": "09:05:00"
+    },
+    {
+      "train_no": "12378",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "21:00:00",
+      "end_day": 1.0,
+      "exit_time": "22:06:00"
+    },
+    {
+      "train_no": "12378",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "22:08:00",
+      "end_day": 2.0,
+      "exit_time": "00:35:00"
+    },
+    {
+      "train_no": "12378",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "00:40:00",
+      "end_day": 2.0,
+      "exit_time": "03:58:00"
+    },
+    {
+      "train_no": "12378",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "04:00:00",
+      "end_day": 2.0,
+      "exit_time": "05:02:00"
+    },
+    {
+      "train_no": "12381",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "08:20:00",
+      "end_day": 1.0,
+      "exit_time": "09:30:00"
+    },
+    {
+      "train_no": "12382",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "15:14:00",
+      "end_day": 2.0,
+      "exit_time": "16:45:00"
+    },
+    {
+      "train_no": "12383",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "15:20:00",
+      "end_day": 1.0,
+      "exit_time": "16:37:00"
+    },
+    {
+      "train_no": "12384",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "07:47:00",
+      "end_day": 1.0,
+      "exit_time": "09:15:00"
+    },
+    {
+      "train_no": "12407",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "08:15:00",
+      "end_day": 1.0,
+      "exit_time": "09:22:00"
+    },
+    {
+      "train_no": "12408",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "17:15:00",
+      "end_day": 2.0,
+      "exit_time": "18:35:00"
+    },
+    {
+      "train_no": "12423",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "13:15:00",
+      "end_day": 2.0,
+      "exit_time": "14:21:00"
+    },
+    {
+      "train_no": "12424",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "09:12:00",
+      "end_day": 2.0,
+      "exit_time": "10:45:00"
+    },
+    {
+      "train_no": "12435",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "12:15:00",
+      "end_day": 2.0,
+      "exit_time": "13:21:00"
+    },
+    {
+      "train_no": "12436",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "10:10:00",
+      "end_day": 2.0,
+      "exit_time": "11:45:00"
+    },
+    {
+      "train_no": "12501",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "13:30:00",
+      "end_day": 1.0,
+      "exit_time": "15:00:00"
+    },
+    {
+      "train_no": "12502",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "22:25:00",
+      "end_day": 3.0,
+      "exit_time": "00:05:00"
+    },
+    {
+      "train_no": "12505",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "17:15:00",
+      "end_day": 1.0,
+      "exit_time": "18:21:00"
+    },
+    {
+      "train_no": "12506",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "06:32:00",
+      "end_day": 2.0,
+      "exit_time": "08:20:00"
+    },
+    {
+      "train_no": "12507",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "14:15:00",
+      "end_day": 3.0,
+      "exit_time": "15:35:00"
+    },
+    {
+      "train_no": "12507",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 3.0,
+      "entry_time": "15:35:00",
+      "end_day": 3.0,
+      "exit_time": "16:18:00"
+    },
+    {
+      "train_no": "12507",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 3.0,
+      "entry_time": "16:23:00",
+      "end_day": 3.0,
+      "exit_time": "20:00:00"
+    },
+    {
+      "train_no": "12507",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "20:15:00",
+      "end_day": 3.0,
+      "exit_time": "22:04:00"
+    },
+    {
+      "train_no": "12507",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "22:06:00",
+      "end_day": 3.0,
+      "exit_time": "23:50:00"
+    },
+    {
+      "train_no": "12508",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "14:25:00",
+      "end_day": 1.0,
+      "exit_time": "15:34:00"
+    },
+    {
+      "train_no": "12508",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "15:36:00",
+      "end_day": 1.0,
+      "exit_time": "18:30:00"
+    },
+    {
+      "train_no": "12508",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "18:45:00",
+      "end_day": 1.0,
+      "exit_time": "22:18:00"
+    },
+    {
+      "train_no": "12508",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "22:23:00",
+      "end_day": 1.0,
+      "exit_time": "23:14:00"
+    },
+    {
+      "train_no": "12508",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:14:00",
+      "end_day": 2.0,
+      "exit_time": "00:45:00"
+    },
+    {
+      "train_no": "12509",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "11:15:00",
+      "end_day": 3.0,
+      "exit_time": "12:36:00"
+    },
+    {
+      "train_no": "12509",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 3.0,
+      "entry_time": "12:36:00",
+      "end_day": 3.0,
+      "exit_time": "13:18:00"
+    },
+    {
+      "train_no": "12509",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 3.0,
+      "entry_time": "13:23:00",
+      "end_day": 3.0,
+      "exit_time": "17:15:00"
+    },
+    {
+      "train_no": "12509",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "17:30:00",
+      "end_day": 3.0,
+      "exit_time": "19:31:00"
+    },
+    {
+      "train_no": "12509",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "19:33:00",
+      "end_day": 3.0,
+      "exit_time": "21:30:00"
+    },
+    {
+      "train_no": "12510",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "14:25:00",
+      "end_day": 1.0,
+      "exit_time": "15:34:00"
+    },
+    {
+      "train_no": "12510",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "15:36:00",
+      "end_day": 1.0,
+      "exit_time": "18:30:00"
+    },
+    {
+      "train_no": "12510",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "18:45:00",
+      "end_day": 1.0,
+      "exit_time": "22:18:00"
+    },
+    {
+      "train_no": "12510",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "22:23:00",
+      "end_day": 1.0,
+      "exit_time": "23:14:00"
+    },
+    {
+      "train_no": "12510",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:14:00",
+      "end_day": 2.0,
+      "exit_time": "00:45:00"
+    },
+    {
+      "train_no": "12513",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "11:15:00",
+      "end_day": 2.0,
+      "exit_time": "12:35:00"
+    },
+    {
+      "train_no": "12513",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "12:35:00",
+      "end_day": 2.0,
+      "exit_time": "13:18:00"
+    },
+    {
+      "train_no": "12513",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "13:23:00",
+      "end_day": 2.0,
+      "exit_time": "17:15:00"
+    },
+    {
+      "train_no": "12513",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "17:30:00",
+      "end_day": 2.0,
+      "exit_time": "19:31:00"
+    },
+    {
+      "train_no": "12513",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "19:33:00",
+      "end_day": 2.0,
+      "exit_time": "21:30:00"
+    },
+    {
+      "train_no": "12514",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "14:25:00",
+      "end_day": 1.0,
+      "exit_time": "15:34:00"
+    },
+    {
+      "train_no": "12514",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "15:36:00",
+      "end_day": 1.0,
+      "exit_time": "18:30:00"
+    },
+    {
+      "train_no": "12514",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "18:45:00",
+      "end_day": 1.0,
+      "exit_time": "22:18:00"
+    },
+    {
+      "train_no": "12514",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "22:23:00",
+      "end_day": 1.0,
+      "exit_time": "23:14:00"
+    },
+    {
+      "train_no": "12514",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:14:00",
+      "end_day": 2.0,
+      "exit_time": "00:45:00"
+    },
+    {
+      "train_no": "12515",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "11:15:00",
+      "end_day": 3.0,
+      "exit_time": "12:35:00"
+    },
+    {
+      "train_no": "12515",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 3.0,
+      "entry_time": "12:35:00",
+      "end_day": 3.0,
+      "exit_time": "13:18:00"
+    },
+    {
+      "train_no": "12515",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 3.0,
+      "entry_time": "13:23:00",
+      "end_day": 3.0,
+      "exit_time": "17:15:00"
+    },
+    {
+      "train_no": "12515",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "17:30:00",
+      "end_day": 3.0,
+      "exit_time": "19:31:00"
+    },
+    {
+      "train_no": "12515",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "19:33:00",
+      "end_day": 3.0,
+      "exit_time": "21:30:00"
+    },
+    {
+      "train_no": "12516",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "14:25:00",
+      "end_day": 1.0,
+      "exit_time": "15:34:00"
+    },
+    {
+      "train_no": "12516",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "15:36:00",
+      "end_day": 1.0,
+      "exit_time": "18:30:00"
+    },
+    {
+      "train_no": "12516",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "18:45:00",
+      "end_day": 1.0,
+      "exit_time": "22:18:00"
+    },
+    {
+      "train_no": "12516",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "22:23:00",
+      "end_day": 1.0,
+      "exit_time": "23:14:00"
+    },
+    {
+      "train_no": "12516",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:14:00",
+      "end_day": 2.0,
+      "exit_time": "00:45:00"
+    },
+    {
+      "train_no": "12517",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "04:10:00",
+      "end_day": 2.0,
+      "exit_time": "06:01:00"
+    },
+    {
+      "train_no": "12517",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "06:03:00",
+      "end_day": 2.0,
+      "exit_time": "07:45:00"
+    },
+    {
+      "train_no": "12518",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "03:50:00",
+      "end_day": 2.0,
+      "exit_time": "04:56:00"
+    },
+    {
+      "train_no": "12518",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "04:58:00",
+      "end_day": 2.0,
+      "exit_time": "08:15:00"
+    },
+    {
+      "train_no": "12519",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": NaN,
+      "entry_time": "None",
+      "end_day": NaN,
+      "exit_time": "None"
+    },
+    {
+      "train_no": "12520",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": NaN,
+      "entry_time": "None",
+      "end_day": NaN,
+      "exit_time": "None"
+    },
+    {
+      "train_no": "12523",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "08:15:00",
+      "end_day": 1.0,
+      "exit_time": "09:21:00"
+    },
+    {
+      "train_no": "12524",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "17:08:00",
+      "end_day": 2.0,
+      "exit_time": "18:35:00"
+    },
+    {
+      "train_no": "12753",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "23:35:00",
+      "end_day": 3.0,
+      "exit_time": "01:35:00"
+    },
+    {
+      "train_no": "12753",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "01:40:00",
+      "end_day": 3.0,
+      "exit_time": "03:45:00"
+    },
+    {
+      "train_no": "12754",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "22:00:00",
+      "end_day": 1.0,
+      "exit_time": "23:12:00"
+    },
+    {
+      "train_no": "12754",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "23:14:00",
+      "end_day": 2.0,
+      "exit_time": "02:00:00"
+    },
+    {
+      "train_no": "12937",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "11:44:00",
+      "end_day": 3.0,
+      "exit_time": "13:05:00"
+    },
+    {
+      "train_no": "12938",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:00:00",
+      "end_day": 2.0,
+      "exit_time": "00:19:00"
+    },
+    {
+      "train_no": "13005",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "19:10:00",
+      "end_day": 1.0,
+      "exit_time": "20:22:00"
+    },
+    {
+      "train_no": "13006",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "05:50:00",
+      "end_day": 3.0,
+      "exit_time": "07:20:00"
+    },
+    {
+      "train_no": "13007",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "09:35:00",
+      "end_day": 1.0,
+      "exit_time": "11:38:00"
+    },
+    {
+      "train_no": "13008",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "17:06:00",
+      "end_day": 1.0,
+      "exit_time": "19:20:00"
+    },
+    {
+      "train_no": "13009",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "20:35:00",
+      "end_day": 1.0,
+      "exit_time": "22:33:00"
+    },
+    {
+      "train_no": "13009-Slip",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "20:35:00",
+      "end_day": 1.0,
+      "exit_time": "22:33:00"
+    },
+    {
+      "train_no": "13010",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "04:27:00",
+      "end_day": 3.0,
+      "exit_time": "06:55:00"
+    },
+    {
+      "train_no": "13011",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "15:25:00",
+      "end_day": 1.0,
+      "exit_time": "17:20:00"
+    },
+    {
+      "train_no": "13011",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "17:22:00",
+      "end_day": 1.0,
+      "exit_time": "18:19:00"
+    },
+    {
+      "train_no": "13011",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "18:21:00",
+      "end_day": 1.0,
+      "exit_time": "22:50:00"
+    },
+    {
+      "train_no": "13012",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "04:30:00",
+      "end_day": 1.0,
+      "exit_time": "08:14:00"
+    },
+    {
+      "train_no": "13012",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "08:16:00",
+      "end_day": 1.0,
+      "exit_time": "09:17:00"
+    },
+    {
+      "train_no": "13012",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "09:19:00",
+      "end_day": 1.0,
+      "exit_time": "11:25:00"
+    },
+    {
+      "train_no": "13013",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "07:15:00",
+      "end_day": 1.0,
+      "exit_time": "08:05:00"
+    },
+    {
+      "train_no": "13014",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "19:46:00",
+      "end_day": 1.0,
+      "exit_time": "21:20:00"
+    },
+    {
+      "train_no": "13015",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "10:45:00",
+      "end_day": 1.0,
+      "exit_time": "12:45:00"
+    },
+    {
+      "train_no": "13015",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "12:47:00",
+      "end_day": 1.0,
+      "exit_time": "13:45:00"
+    },
+    {
+      "train_no": "13016",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "14:10:00",
+      "end_day": 1.0,
+      "exit_time": "15:03:00"
+    },
+    {
+      "train_no": "13016",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "15:05:00",
+      "end_day": 1.0,
+      "exit_time": "17:15:00"
+    },
+    {
+      "train_no": "13017",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "06:05:00",
+      "end_day": 1.0,
+      "exit_time": "07:50:00"
+    },
+    {
+      "train_no": "13017",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "07:55:00",
+      "end_day": 1.0,
+      "exit_time": "08:47:00"
+    },
+    {
+      "train_no": "13018",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "18:30:00",
+      "end_day": 1.0,
+      "exit_time": "19:37:00"
+    },
+    {
+      "train_no": "13018",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "19:42:00",
+      "end_day": 1.0,
+      "exit_time": "21:45:00"
+    },
+    {
+      "train_no": "13019",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "21:45:00",
+      "end_day": 1.0,
+      "exit_time": "23:35:00"
+    },
+    {
+      "train_no": "13020",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "10:36:00",
+      "end_day": 3.0,
+      "exit_time": "12:40:00"
+    },
+    {
+      "train_no": "13021",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "15:45:00",
+      "end_day": 1.0,
+      "exit_time": "18:06:00"
+    },
+    {
+      "train_no": "13022",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "01:41:00",
+      "end_day": 2.0,
+      "exit_time": "04:00:00"
+    },
+    {
+      "train_no": "13023",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "19:50:00",
+      "end_day": 1.0,
+      "exit_time": "21:41:00"
+    },
+    {
+      "train_no": "13023",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "21:46:00",
+      "end_day": 1.0,
+      "exit_time": "22:36:00"
+    },
+    {
+      "train_no": "13024",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "00:08:00",
+      "end_day": 2.0,
+      "exit_time": "01:16:00"
+    },
+    {
+      "train_no": "13024",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "01:21:00",
+      "end_day": 2.0,
+      "exit_time": "03:40:00"
+    },
+    {
+      "train_no": "13025",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "13:25:00",
+      "end_day": 1.0,
+      "exit_time": "14:40:00"
+    },
+    {
+      "train_no": "13026",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "13:34:00",
+      "end_day": 2.0,
+      "exit_time": "15:00:00"
+    },
+    {
+      "train_no": "13027",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "22:40:00",
+      "end_day": 2.0,
+      "exit_time": "00:42:00"
+    },
+    {
+      "train_no": "13027",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "00:44:00",
+      "end_day": 2.0,
+      "exit_time": "01:29:00"
+    },
+    {
+      "train_no": "13028",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "10:26:00",
+      "end_day": 1.0,
+      "exit_time": "11:40:00"
+    },
+    {
+      "train_no": "13028",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "11:42:00",
+      "end_day": 1.0,
+      "exit_time": "13:55:00"
+    },
+    {
+      "train_no": "13039",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "20:20:00",
+      "end_day": 1.0,
+      "exit_time": "22:16:00"
+    },
+    {
+      "train_no": "13040",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "03:27:00",
+      "end_day": 3.0,
+      "exit_time": "06:05:00"
+    },
+    {
+      "train_no": "13049",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "14:00:00",
+      "end_day": 1.0,
+      "exit_time": "16:10:00"
+    },
+    {
+      "train_no": "13050",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "13:13:00",
+      "end_day": 3.0,
+      "exit_time": "15:45:00"
+    },
+    {
+      "train_no": "13051",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "06:45:00",
+      "end_day": 1.0,
+      "exit_time": "08:48:00"
+    },
+    {
+      "train_no": "13052",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "16:09:00",
+      "end_day": 1.0,
+      "exit_time": "18:25:00"
+    },
+    {
+      "train_no": "13053",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "08:35:00",
+      "end_day": 1.0,
+      "exit_time": "10:48:00"
+    },
+    {
+      "train_no": "13053",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "10:50:00",
+      "end_day": 1.0,
+      "exit_time": "12:00:00"
+    },
+    {
+      "train_no": "13054",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "19:19:00",
+      "end_day": 1.0,
+      "exit_time": "20:28:00"
+    },
+    {
+      "train_no": "13054",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "20:30:00",
+      "end_day": 1.0,
+      "exit_time": "22:40:00"
+    },
+    {
+      "train_no": "13071",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "21:35:00",
+      "end_day": 1.0,
+      "exit_time": "22:45:00"
+    },
+    {
+      "train_no": "13071",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "22:50:00",
+      "end_day": 1.0,
+      "exit_time": "23:43:00"
+    },
+    {
+      "train_no": "13072",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "02:31:00",
+      "end_day": 2.0,
+      "exit_time": "03:35:00"
+    },
+    {
+      "train_no": "13072",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "03:40:00",
+      "end_day": 2.0,
+      "exit_time": "05:30:00"
+    },
+    {
+      "train_no": "13133",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "23:03:00",
+      "end_day": 2.0,
+      "exit_time": "00:01:00"
+    },
+    {
+      "train_no": "13134",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "07:18:00",
+      "end_day": 2.0,
+      "exit_time": "08:32:00"
+    },
+    {
+      "train_no": "13141",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "22:05:00",
+      "end_day": 2.0,
+      "exit_time": "00:45:00"
+    },
+    {
+      "train_no": "13141",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "00:50:00",
+      "end_day": 2.0,
+      "exit_time": "02:40:00"
+    },
+    {
+      "train_no": "13141-Slip",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "22:05:00",
+      "end_day": 2.0,
+      "exit_time": "00:45:00"
+    },
+    {
+      "train_no": "13141-Slip",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "00:50:00",
+      "end_day": 2.0,
+      "exit_time": "02:40:00"
+    },
+    {
+      "train_no": "13142",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "16:00:00",
+      "end_day": 1.0,
+      "exit_time": "17:12:00"
+    },
+    {
+      "train_no": "13142",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "17:14:00",
+      "end_day": 1.0,
+      "exit_time": "20:35:00"
+    },
+    {
+      "train_no": "13147",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "21:28:00",
+      "end_day": 1.0,
+      "exit_time": "22:20:00"
+    },
+    {
+      "train_no": "13147",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "22:25:00",
+      "end_day": 2.0,
+      "exit_time": "02:20:00"
+    },
+    {
+      "train_no": "13147",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "02:35:00",
+      "end_day": 2.0,
+      "exit_time": "04:50:00"
+    },
+    {
+      "train_no": "13147",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "04:55:00",
+      "end_day": 2.0,
+      "exit_time": "07:00:00"
+    },
+    {
+      "train_no": "13148",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "17:40:00",
+      "end_day": 1.0,
+      "exit_time": "18:52:00"
+    },
+    {
+      "train_no": "13148",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "18:54:00",
+      "end_day": 1.0,
+      "exit_time": "22:20:00"
+    },
+    {
+      "train_no": "13148",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "22:35:00",
+      "end_day": 2.0,
+      "exit_time": "02:06:00"
+    },
+    {
+      "train_no": "13148",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "02:11:00",
+      "end_day": 2.0,
+      "exit_time": "03:11:00"
+    },
+    {
+      "train_no": "13149",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "22:20:00",
+      "end_day": 1.0,
+      "exit_time": "23:10:00"
+    },
+    {
+      "train_no": "13149",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "23:15:00",
+      "end_day": 2.0,
+      "exit_time": "03:10:00"
+    },
+    {
+      "train_no": "13149",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "03:25:00",
+      "end_day": 2.0,
+      "exit_time": "05:40:00"
+    },
+    {
+      "train_no": "13149",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "05:42:00",
+      "end_day": 2.0,
+      "exit_time": "07:30:00"
+    },
+    {
+      "train_no": "13150",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "20:30:00",
+      "end_day": 1.0,
+      "exit_time": "21:43:00"
+    },
+    {
+      "train_no": "13150",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "21:45:00",
+      "end_day": 2.0,
+      "exit_time": "01:10:00"
+    },
+    {
+      "train_no": "13150",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "01:20:00",
+      "end_day": 2.0,
+      "exit_time": "04:59:00"
+    },
+    {
+      "train_no": "13150",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "05:04:00",
+      "end_day": 2.0,
+      "exit_time": "06:14:00"
+    },
+    {
+      "train_no": "13153",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "00:58:00",
+      "end_day": 2.0,
+      "exit_time": "01:45:00"
+    },
+    {
+      "train_no": "13153",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "01:50:00",
+      "end_day": 2.0,
+      "exit_time": "06:15:00"
+    },
+    {
+      "train_no": "13153-Slip",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "00:58:00",
+      "end_day": 2.0,
+      "exit_time": "01:45:00"
+    },
+    {
+      "train_no": "13153-Slip",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "01:50:00",
+      "end_day": 2.0,
+      "exit_time": "06:15:00"
+    },
+    {
+      "train_no": "13154",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "21:35:00",
+      "end_day": 2.0,
+      "exit_time": "01:22:00"
+    },
+    {
+      "train_no": "13154",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "01:24:00",
+      "end_day": 2.0,
+      "exit_time": "02:30:00"
+    },
+    {
+      "train_no": "13159",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "23:26:00",
+      "end_day": 2.0,
+      "exit_time": "00:45:00"
+    },
+    {
+      "train_no": "13159",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "00:47:00",
+      "end_day": 2.0,
+      "exit_time": "05:20:00"
+    },
+    {
+      "train_no": "13160",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "20:10:00",
+      "end_day": 1.0,
+      "exit_time": "23:44:00"
+    },
+    {
+      "train_no": "13160",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "23:46:00",
+      "end_day": 2.0,
+      "exit_time": "01:00:00"
+    },
+    {
+      "train_no": "13161",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "14:34:00",
+      "end_day": 1.0,
+      "exit_time": "15:25:00"
+    },
+    {
+      "train_no": "13161",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "15:28:00",
+      "end_day": 1.0,
+      "exit_time": "19:20:00"
+    },
+    {
+      "train_no": "13162",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "08:10:00",
+      "end_day": 1.0,
+      "exit_time": "11:30:00"
+    },
+    {
+      "train_no": "13162",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "11:33:00",
+      "end_day": 1.0,
+      "exit_time": "12:32:00"
+    },
+    {
+      "train_no": "13187",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "09:45:00",
+      "end_day": 1.0,
+      "exit_time": "10:40:00"
+    },
+    {
+      "train_no": "13188",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "15:04:00",
+      "end_day": 1.0,
+      "exit_time": "16:17:00"
+    },
+    {
+      "train_no": "13245",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "14:40:00",
+      "end_day": 1.0,
+      "exit_time": "15:55:00"
+    },
+    {
+      "train_no": "13246",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "09:50:00",
+      "end_day": 2.0,
+      "exit_time": "12:20:00"
+    },
+    {
+      "train_no": "13247",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "14:40:00",
+      "end_day": 1.0,
+      "exit_time": "15:55:00"
+    },
+    {
+      "train_no": "13248",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "09:50:00",
+      "end_day": 2.0,
+      "exit_time": "12:20:00"
+    },
+    {
+      "train_no": "13317",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "06:15:00",
+      "end_day": 1.0,
+      "exit_time": "08:00:00"
+    },
+    {
+      "train_no": "13318",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "19:23:00",
+      "end_day": 1.0,
+      "exit_time": "21:25:00"
+    },
+    {
+      "train_no": "14055",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "22:30:00",
+      "end_day": 2.0,
+      "exit_time": "23:36:00"
+    },
+    {
+      "train_no": "14055",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "23:41:00",
+      "end_day": 3.0,
+      "exit_time": "03:35:00"
+    },
+    {
+      "train_no": "14056",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "00:40:00",
+      "end_day": 3.0,
+      "exit_time": "02:36:00"
+    },
+    {
+      "train_no": "14056",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "02:41:00",
+      "end_day": 3.0,
+      "exit_time": "04:25:00"
+    },
+    {
+      "train_no": "14083",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "11:05:00",
+      "end_day": 1.0,
+      "exit_time": "12:17:00"
+    },
+    {
+      "train_no": "14084",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "11:50:00",
+      "end_day": 2.0,
+      "exit_time": "13:30:00"
+    },
+    {
+      "train_no": "15227",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "14:15:00",
+      "end_day": 3.0,
+      "exit_time": "15:35:00"
+    },
+    {
+      "train_no": "15227",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 3.0,
+      "entry_time": "15:35:00",
+      "end_day": 3.0,
+      "exit_time": "16:18:00"
+    },
+    {
+      "train_no": "15227",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 3.0,
+      "entry_time": "16:23:00",
+      "end_day": 3.0,
+      "exit_time": "20:00:00"
+    },
+    {
+      "train_no": "15228",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "16:05:00",
+      "end_day": 1.0,
+      "exit_time": "19:31:00"
+    },
+    {
+      "train_no": "15228",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "19:36:00",
+      "end_day": 1.0,
+      "exit_time": "20:47:00"
+    },
+    {
+      "train_no": "15228",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "20:47:00",
+      "end_day": 1.0,
+      "exit_time": "22:55:00"
+    },
+    {
+      "train_no": "15235",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "11:05:00",
+      "end_day": 1.0,
+      "exit_time": "12:16:00"
+    },
+    {
+      "train_no": "15236",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "01:15:00",
+      "end_day": 2.0,
+      "exit_time": "03:00:00"
+    },
+    {
+      "train_no": "15271",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "11:15:00",
+      "end_day": 1.0,
+      "exit_time": "12:33:00"
+    },
+    {
+      "train_no": "15272",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "01:15:00",
+      "end_day": 2.0,
+      "exit_time": "03:00:00"
+    },
+    {
+      "train_no": "15609",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "06:10:00",
+      "end_day": 2.0,
+      "exit_time": "07:25:00"
+    },
+    {
+      "train_no": "15609-Slip",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "06:10:00",
+      "end_day": 2.0,
+      "exit_time": "07:25:00"
+    },
+    {
+      "train_no": "15610",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "15:55:00",
+      "end_day": 3.0,
+      "exit_time": "17:55:00"
+    },
+    {
+      "train_no": "15611",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "21:55:00",
+      "end_day": 2.0,
+      "exit_time": "23:53:00"
+    },
+    {
+      "train_no": "15611",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "23:56:00",
+      "end_day": 3.0,
+      "exit_time": "00:51:00"
+    },
+    {
+      "train_no": "15611",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 3.0,
+      "entry_time": "00:51:00",
+      "end_day": 3.0,
+      "exit_time": "05:25:00"
+    },
+    {
+      "train_no": "15611",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "05:30:00",
+      "end_day": 3.0,
+      "exit_time": "07:51:00"
+    },
+    {
+      "train_no": "15611",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "07:51:00",
+      "end_day": 3.0,
+      "exit_time": "09:15:00"
+    },
+    {
+      "train_no": "15612",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "03:20:00",
+      "end_day": 2.0,
+      "exit_time": "04:54:00"
+    },
+    {
+      "train_no": "15612",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "04:54:00",
+      "end_day": 2.0,
+      "exit_time": "07:35:00"
+    },
+    {
+      "train_no": "15612",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "07:50:00",
+      "end_day": 2.0,
+      "exit_time": "11:33:00"
+    },
+    {
+      "train_no": "15612",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "11:33:00",
+      "end_day": 2.0,
+      "exit_time": "12:27:00"
+    },
+    {
+      "train_no": "15612",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "12:30:00",
+      "end_day": 2.0,
+      "exit_time": "14:15:00"
+    },
+    {
+      "train_no": "15619",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "23:35:00",
+      "end_day": 2.0,
+      "exit_time": "01:35:00"
+    },
+    {
+      "train_no": "15619",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "01:40:00",
+      "end_day": 2.0,
+      "exit_time": "03:25:00"
+    },
+    {
+      "train_no": "15620",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "15:40:00",
+      "end_day": 1.0,
+      "exit_time": "16:50:00"
+    },
+    {
+      "train_no": "15620",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "16:55:00",
+      "end_day": 1.0,
+      "exit_time": "19:55:00"
+    },
+    {
+      "train_no": "15629",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "14:55:00",
+      "end_day": 3.0,
+      "exit_time": "17:34:00"
+    },
+    {
+      "train_no": "15629",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "17:36:00",
+      "end_day": 3.0,
+      "exit_time": "19:10:00"
+    },
+    {
+      "train_no": "15630",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "23:40:00",
+      "end_day": 2.0,
+      "exit_time": "00:50:00"
+    },
+    {
+      "train_no": "15630",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "00:55:00",
+      "end_day": 2.0,
+      "exit_time": "03:55:00"
+    },
+    {
+      "train_no": "15631",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "13:20:00",
+      "end_day": 3.0,
+      "exit_time": "15:05:00"
+    },
+    {
+      "train_no": "15632",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "18:25:00",
+      "end_day": 1.0,
+      "exit_time": "19:35:00"
+    },
+    {
+      "train_no": "15632-Slip",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "18:25:00",
+      "end_day": 1.0,
+      "exit_time": "19:35:00"
+    },
+    {
+      "train_no": "15635",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "19:55:00",
+      "end_day": 3.0,
+      "exit_time": "21:55:00"
+    },
+    {
+      "train_no": "15636",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "18:25:00",
+      "end_day": 1.0,
+      "exit_time": "19:35:00"
+    },
+    {
+      "train_no": "15639",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "08:40:00",
+      "end_day": 2.0,
+      "exit_time": "10:52:00"
+    },
+    {
+      "train_no": "15639",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "10:57:00",
+      "end_day": 2.0,
+      "exit_time": "12:40:00"
+    },
+    {
+      "train_no": "15640",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "03:20:00",
+      "end_day": 2.0,
+      "exit_time": "04:26:00"
+    },
+    {
+      "train_no": "15640",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "04:31:00",
+      "end_day": 2.0,
+      "exit_time": "07:55:00"
+    },
+    {
+      "train_no": "15643",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "15:20:00",
+      "end_day": 2.0,
+      "exit_time": "17:23:00"
+    },
+    {
+      "train_no": "15643",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "17:25:00",
+      "end_day": 2.0,
+      "exit_time": "18:50:00"
+    },
+    {
+      "train_no": "15644",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "08:40:00",
+      "end_day": 2.0,
+      "exit_time": "09:55:00"
+    },
+    {
+      "train_no": "15644",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "10:00:00",
+      "end_day": 2.0,
+      "exit_time": "13:35:00"
+    },
+    {
+      "train_no": "15645",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "23:15:00",
+      "end_day": 3.0,
+      "exit_time": "01:10:00"
+    },
+    {
+      "train_no": "15646",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "01:20:00",
+      "end_day": 2.0,
+      "exit_time": "02:26:00"
+    },
+    {
+      "train_no": "15647",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "23:35:00",
+      "end_day": 3.0,
+      "exit_time": "01:35:00"
+    },
+    {
+      "train_no": "15647",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "01:40:00",
+      "end_day": 3.0,
+      "exit_time": "03:25:00"
+    },
+    {
+      "train_no": "15648",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "23:40:00",
+      "end_day": 2.0,
+      "exit_time": "00:50:00"
+    },
+    {
+      "train_no": "15648",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "00:55:00",
+      "end_day": 2.0,
+      "exit_time": "03:55:00"
+    },
+    {
+      "train_no": "15651",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "21:40:00",
+      "end_day": 1.0,
+      "exit_time": "22:46:00"
+    },
+    {
+      "train_no": "15652",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "12:10:00",
+      "end_day": 3.0,
+      "exit_time": "13:50:00"
+    },
+    {
+      "train_no": "15653",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "21:40:00",
+      "end_day": 1.0,
+      "exit_time": "22:46:00"
+    },
+    {
+      "train_no": "15654",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "12:10:00",
+      "end_day": 3.0,
+      "exit_time": "13:50:00"
+    },
+    {
+      "train_no": "15657",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "08:40:00",
+      "end_day": 1.0,
+      "exit_time": "09:25:00"
+    },
+    {
+      "train_no": "15657",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "09:30:00",
+      "end_day": 1.0,
+      "exit_time": "13:35:00"
+    },
+    {
+      "train_no": "15657",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "13:55:00",
+      "end_day": 1.0,
+      "exit_time": "16:15:00"
+    },
+    {
+      "train_no": "15657",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "16:17:00",
+      "end_day": 1.0,
+      "exit_time": "18:15:00"
+    },
+    {
+      "train_no": "15658",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "07:50:00",
+      "end_day": 2.0,
+      "exit_time": "08:56:00"
+    },
+    {
+      "train_no": "15658",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "09:01:00",
+      "end_day": 2.0,
+      "exit_time": "12:15:00"
+    },
+    {
+      "train_no": "15658",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "12:35:00",
+      "end_day": 2.0,
+      "exit_time": "16:07:00"
+    },
+    {
+      "train_no": "15658",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "16:12:00",
+      "end_day": 2.0,
+      "exit_time": "17:16:00"
+    },
+    {
+      "train_no": "15661",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "08:40:00",
+      "end_day": 2.0,
+      "exit_time": "10:52:00"
+    },
+    {
+      "train_no": "15661",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "10:57:00",
+      "end_day": 2.0,
+      "exit_time": "12:40:00"
+    },
+    {
+      "train_no": "15662",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "21:40:00",
+      "end_day": 1.0,
+      "exit_time": "22:46:00"
+    },
+    {
+      "train_no": "15662",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "22:51:00",
+      "end_day": 2.0,
+      "exit_time": "02:00:00"
+    },
+    {
+      "train_no": "15667",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "19:57:00",
+      "end_day": 3.0,
+      "exit_time": "21:55:00"
+    },
+    {
+      "train_no": "15668",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "18:25:00",
+      "end_day": 1.0,
+      "exit_time": "19:59:00"
+    },
+    {
+      "train_no": "15719",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "08:02:00",
+      "end_day": 1.0,
+      "exit_time": "09:35:00"
+    },
+    {
+      "train_no": "15720",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "17:45:00",
+      "end_day": 1.0,
+      "exit_time": "18:55:00"
+    },
+    {
+      "train_no": "15721",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "04:10:00",
+      "end_day": 2.0,
+      "exit_time": "06:50:00"
+    },
+    {
+      "train_no": "15721",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "06:52:00",
+      "end_day": 2.0,
+      "exit_time": "08:45:00"
+    },
+    {
+      "train_no": "15722",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "21:15:00",
+      "end_day": 1.0,
+      "exit_time": "22:21:00"
+    },
+    {
+      "train_no": "15722",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "22:23:00",
+      "end_day": 2.0,
+      "exit_time": "00:55:00"
+    },
+    {
+      "train_no": "15723",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "22:00:00",
+      "end_day": 1.0,
+      "exit_time": "23:12:00"
+    },
+    {
+      "train_no": "15724",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "03:45:00",
+      "end_day": 2.0,
+      "exit_time": "05:50:00"
+    },
+    {
+      "train_no": "15763",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "14:55:00",
+      "end_day": 1.0,
+      "exit_time": "16:40:00"
+    },
+    {
+      "train_no": "15764",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "10:20:00",
+      "end_day": 1.0,
+      "exit_time": "11:32:00"
+    },
+    {
+      "train_no": "15901",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "14:15:00",
+      "end_day": 3.0,
+      "exit_time": "15:45:00"
+    },
+    {
+      "train_no": "15901",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 3.0,
+      "entry_time": "15:45:00",
+      "end_day": 3.0,
+      "exit_time": "16:34:00"
+    },
+    {
+      "train_no": "15901",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 3.0,
+      "entry_time": "16:34:00",
+      "end_day": 3.0,
+      "exit_time": "20:00:00"
+    },
+    {
+      "train_no": "15901",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "20:15:00",
+      "end_day": 3.0,
+      "exit_time": "22:04:00"
+    },
+    {
+      "train_no": "15901",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "22:06:00",
+      "end_day": 3.0,
+      "exit_time": "23:50:00"
+    },
+    {
+      "train_no": "15902",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "14:25:00",
+      "end_day": 2.0,
+      "exit_time": "15:34:00"
+    },
+    {
+      "train_no": "15902",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "15:36:00",
+      "end_day": 2.0,
+      "exit_time": "18:30:00"
+    },
+    {
+      "train_no": "15902",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 2.0,
+      "entry_time": "18:45:00",
+      "end_day": 2.0,
+      "exit_time": "22:28:00"
+    },
+    {
+      "train_no": "15902",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "22:28:00",
+      "end_day": 2.0,
+      "exit_time": "23:18:00"
+    },
+    {
+      "train_no": "15902",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "23:18:00",
+      "end_day": 3.0,
+      "exit_time": "00:45:00"
+    },
+    {
+      "train_no": "15903",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "03:50:00",
+      "end_day": 2.0,
+      "exit_time": "04:56:00"
+    },
+    {
+      "train_no": "15904",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "08:28:00",
+      "end_day": 3.0,
+      "exit_time": "10:15:00"
+    },
+    {
+      "train_no": "15905",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "23:35:00",
+      "end_day": 4.0,
+      "exit_time": "01:35:00"
+    },
+    {
+      "train_no": "15905",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 4.0,
+      "entry_time": "01:40:00",
+      "end_day": 4.0,
+      "exit_time": "03:25:00"
+    },
+    {
+      "train_no": "15906",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "22:00:00",
+      "end_day": 2.0,
+      "exit_time": "23:12:00"
+    },
+    {
+      "train_no": "15906",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "23:14:00",
+      "end_day": 3.0,
+      "exit_time": "02:00:00"
+    },
+    {
+      "train_no": "15929",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "14:55:00",
+      "end_day": 3.0,
+      "exit_time": "17:34:00"
+    },
+    {
+      "train_no": "15929",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "17:36:00",
+      "end_day": 3.0,
+      "exit_time": "19:10:00"
+    },
+    {
+      "train_no": "15930",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "23:40:00",
+      "end_day": 3.0,
+      "exit_time": "00:50:00"
+    },
+    {
+      "train_no": "15930",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 3.0,
+      "entry_time": "00:55:00",
+      "end_day": 3.0,
+      "exit_time": "03:55:00"
+    },
+    {
+      "train_no": "15933",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "03:50:00",
+      "end_day": 2.0,
+      "exit_time": "06:02:00"
+    },
+    {
+      "train_no": "15934",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "05:54:00",
+      "end_day": 3.0,
+      "exit_time": "07:45:00"
+    },
+    {
+      "train_no": "15941",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "08:40:00",
+      "end_day": 2.0,
+      "exit_time": "10:52:00"
+    },
+    {
+      "train_no": "15941",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "10:57:00",
+      "end_day": 2.0,
+      "exit_time": "12:40:00"
+    },
+    {
+      "train_no": "15942",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "03:20:00",
+      "end_day": 2.0,
+      "exit_time": "04:26:00"
+    },
+    {
+      "train_no": "15942",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "04:31:00",
+      "end_day": 2.0,
+      "exit_time": "07:55:00"
+    },
+    {
+      "train_no": "15959",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "02:00:00",
+      "end_day": 2.0,
+      "exit_time": "04:20:00"
+    },
+    {
+      "train_no": "15959",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "04:25:00",
+      "end_day": 2.0,
+      "exit_time": "06:15:00"
+    },
+    {
+      "train_no": "15960",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "16:45:00",
+      "end_day": 2.0,
+      "exit_time": "17:57:00"
+    },
+    {
+      "train_no": "15960",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 2.0,
+      "entry_time": "18:02:00",
+      "end_day": 2.0,
+      "exit_time": "21:50:00"
+    },
+    {
+      "train_no": "18627",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "14:15:00",
+      "end_day": 1.0,
+      "exit_time": "15:28:00"
+    },
+    {
+      "train_no": "18628",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "11:55:00",
+      "end_day": 1.0,
+      "exit_time": "13:40:00"
+    },
+    {
+      "train_no": "19305",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "05:25:00",
+      "end_day": 3.0,
+      "exit_time": "06:45:00"
+    },
+    {
+      "train_no": "19306",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "17:45:00",
+      "end_day": 1.0,
+      "exit_time": "19:03:00"
+    },
+    {
+      "train_no": "19601",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "17:08:00",
+      "end_day": 2.0,
+      "exit_time": "18:35:00"
+    },
+    {
+      "train_no": "19602",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "08:15:00",
+      "end_day": 1.0,
+      "exit_time": "09:21:00"
+    },
+    {
+      "train_no": "19709",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "12:10:00",
+      "end_day": 3.0,
+      "exit_time": "13:50:00"
+    },
+    {
+      "train_no": "19710",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "03:50:00",
+      "end_day": 2.0,
+      "exit_time": "04:56:00"
+    },
+    {
+      "train_no": "22308",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "02:33:00",
+      "end_day": 3.0,
+      "exit_time": "04:00:00"
+    },
+    {
+      "train_no": "22423",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "13:15:00",
+      "end_day": 1.0,
+      "exit_time": "14:21:00"
+    },
+    {
+      "train_no": "22424",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 2.0,
+      "entry_time": "09:12:00",
+      "end_day": 2.0,
+      "exit_time": "10:45:00"
+    },
+    {
+      "train_no": "23010",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 3.0,
+      "entry_time": "04:27:00",
+      "end_day": 3.0,
+      "exit_time": "06:55:00"
+    },
+    {
+      "train_no": "23040",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "03:27:00",
+      "end_day": 2.0,
+      "exit_time": "06:05:00"
+    },
+    {
+      "train_no": "23142",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "16:00:00",
+      "end_day": 1.0,
+      "exit_time": "17:12:00"
+    },
+    {
+      "train_no": "23142",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "17:14:00",
+      "end_day": 1.0,
+      "exit_time": "20:35:00"
+    },
+    {
+      "train_no": "23154",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "21:35:00",
+      "end_day": 2.0,
+      "exit_time": "01:22:00"
+    },
+    {
+      "train_no": "23154",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "01:24:00",
+      "end_day": 2.0,
+      "exit_time": "02:30:00"
+    },
+    {
+      "train_no": "25610",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "15:55:00",
+      "end_day": 1.0,
+      "exit_time": "17:55:00"
+    },
+    {
+      "train_no": "25631",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 3.0,
+      "entry_time": "13:20:00",
+      "end_day": 3.0,
+      "exit_time": "15:05:00"
+    },
+    {
+      "train_no": "37855",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "14:46:00",
+      "end_day": 1.0,
+      "exit_time": "17:11:00"
+    },
+    {
+      "train_no": "37857",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "17:55:00",
+      "end_day": 1.0,
+      "exit_time": "20:00:00"
+    },
+    {
+      "train_no": "53041",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "07:15:00",
+      "end_day": 1.0,
+      "exit_time": "09:58:00"
+    },
+    {
+      "train_no": "53041",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "10:03:00",
+      "end_day": 1.0,
+      "exit_time": "11:39:00"
+    },
+    {
+      "train_no": "53042",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "17:52:00",
+      "end_day": 2.0,
+      "exit_time": "19:55:00"
+    },
+    {
+      "train_no": "53042",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "20:15:00",
+      "end_day": 2.0,
+      "exit_time": "23:05:00"
+    },
+    {
+      "train_no": "53043",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "11:10:00",
+      "end_day": 1.0,
+      "exit_time": "13:40:00"
+    },
+    {
+      "train_no": "53043",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "13:45:00",
+      "end_day": 1.0,
+      "exit_time": "14:54:00"
+    },
+    {
+      "train_no": "53044",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 2.0,
+      "entry_time": "05:19:00",
+      "end_day": 2.0,
+      "exit_time": "07:00:00"
+    },
+    {
+      "train_no": "53044",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 2.0,
+      "entry_time": "07:20:00",
+      "end_day": 2.0,
+      "exit_time": "12:10:00"
+    },
+    {
+      "train_no": "53045",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "16:25:00",
+      "end_day": 1.0,
+      "exit_time": "18:20:00"
+    },
+    {
+      "train_no": "53046",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "09:28:00",
+      "end_day": 1.0,
+      "exit_time": "11:35:00"
+    },
+    {
+      "train_no": "53047",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "16:40:00",
+      "end_day": 1.0,
+      "exit_time": "18:46:00"
+    },
+    {
+      "train_no": "53047",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "18:48:00",
+      "end_day": 1.0,
+      "exit_time": "20:03:00"
+    },
+    {
+      "train_no": "53048",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "06:31:00",
+      "end_day": 1.0,
+      "exit_time": "07:53:00"
+    },
+    {
+      "train_no": "53048",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "07:55:00",
+      "end_day": 1.0,
+      "exit_time": "10:10:00"
+    },
+    {
+      "train_no": "53049",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "22:50:00",
+      "end_day": 2.0,
+      "exit_time": "01:10:00"
+    },
+    {
+      "train_no": "53050",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "23:50:00",
+      "end_day": 2.0,
+      "exit_time": "03:00:00"
+    },
+    {
+      "train_no": "53063",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "06:30:00",
+      "end_day": 1.0,
+      "exit_time": "07:41:00"
+    },
+    {
+      "train_no": "53064",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "18:55:00",
+      "end_day": 1.0,
+      "exit_time": "20:40:00"
+    },
+    {
+      "train_no": "53065",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "09:10:00",
+      "end_day": 1.0,
+      "exit_time": "10:17:00"
+    },
+    {
+      "train_no": "53066",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "15:39:00",
+      "end_day": 1.0,
+      "exit_time": "17:00:00"
+    },
+    {
+      "train_no": "53067",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "17:35:00",
+      "end_day": 1.0,
+      "exit_time": "18:46:00"
+    },
+    {
+      "train_no": "53068",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "10:47:00",
+      "end_day": 1.0,
+      "exit_time": "12:15:00"
+    },
+    {
+      "train_no": "53069",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "20:10:00",
+      "end_day": 1.0,
+      "exit_time": "21:17:00"
+    },
+    {
+      "train_no": "53070",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "07:32:00",
+      "end_day": 1.0,
+      "exit_time": "08:47:00"
+    },
+    {
+      "train_no": "53135",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "14:45:00",
+      "end_day": 1.0,
+      "exit_time": "16:00:00"
+    },
+    {
+      "train_no": "53136",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "14:21:00",
+      "end_day": 1.0,
+      "exit_time": "16:30:00"
+    },
+    {
+      "train_no": "53417",
+      "direction": "UP",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "05:00:00",
+      "end_day": 1.0,
+      "exit_time": "06:07:00"
+    },
+    {
+      "train_no": "53417",
+      "direction": "UP",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "06:09:00",
+      "end_day": 1.0,
+      "exit_time": "11:00:00"
+    },
+    {
+      "train_no": "53418",
+      "direction": "DOWN",
+      "section_id": "BHP_to_MLDT",
+      "start_day": 1.0,
+      "entry_time": "15:00:00",
+      "end_day": 1.0,
+      "exit_time": "20:12:00"
+    },
+    {
+      "train_no": "53418",
+      "direction": "DOWN",
+      "section_id": "BWN_to_BHP",
+      "start_day": 1.0,
+      "entry_time": "20:14:00",
+      "end_day": 1.0,
+      "exit_time": "21:40:00"
+    },
+    {
+      "train_no": "55711",
+      "direction": "UP",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "15:10:00",
+      "end_day": 1.0,
+      "exit_time": "20:20:00"
+    },
+    {
+      "train_no": "55711",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "20:25:00",
+      "end_day": 1.0,
+      "exit_time": "22:55:00"
+    },
+    {
+      "train_no": "55712",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "05:45:00",
+      "end_day": 1.0,
+      "exit_time": "08:15:00"
+    },
+    {
+      "train_no": "55712",
+      "direction": "DOWN",
+      "section_id": "MLDT_to_KNE",
+      "start_day": 1.0,
+      "entry_time": "08:20:00",
+      "end_day": 1.0,
+      "exit_time": "14:30:00"
+    },
+    {
+      "train_no": "55715",
+      "direction": "UP",
+      "section_id": "KNE_to_NJP",
+      "start_day": 6.0,
+      "entry_time": "21:10:00",
+      "end_day": 10.0,
+      "exit_time": "23:05:00"
+    },
+    {
+      "train_no": "55716",
+      "direction": "DOWN",
+      "section_id": "KNE_to_NJP",
+      "start_day": 1.0,
+      "entry_time": "04:40:00",
+      "end_day": 1.0,
+      "exit_time": "06:07:00"
+    },
+    {
+      "train_no": "63501",
+      "direction": "UP",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "01:50:00",
+      "end_day": 1.0,
+      "exit_time": "03:40:00"
+    },
+    {
+      "train_no": "63502",
+      "direction": "DOWN",
+      "section_id": "HWH_to_BWN",
+      "start_day": 1.0,
+      "entry_time": "21:58:00",
+      "end_day": 2.0,
+      "exit_time": "00:20:00"
+    }
+  ]
+}
