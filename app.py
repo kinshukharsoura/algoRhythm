@@ -1,139 +1,221 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List, Optional
 import uvicorn
 from datetime import datetime, timedelta
+from apscheduler.schedulers.background import BackgroundScheduler
+from contextlib import asynccontextmanager
+import uuid
+import collections
 
-# Import Member D's upgraded mathematical engine functions
-from scheduler_engine import find_corridors_for_all_sections, generate_schedule
+# Import your mathematical engine
+from scheduler_engine import generate_schedule
 
-app = FastAPI(title="Railway Central Routing API")
+# --- MOCK DATABASE ---
+DB_ACTIVE_QUEUE = []       
+DB_BACKLOG = []            
+DB_RECURRING_RULES = []    
+DB_FINAL_SCHEDULE = []     
+DB_TRAIN_SCHEDULE = []     
 
-# Configure CORS so Member F's frontend can communicate with this backend
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# Establish Day 1.0 of the simulation schedule 
 SIMULATION_BASE_DATE = datetime(2026, 9, 1)
 
 def convert_day_time_to_iso(day_float: float, time_str: str) -> str:
-    """Converts Member B's day/time format into standard ISO 8601 strings."""
     day_offset = int(day_float) - 1
     t_obj = datetime.strptime(time_str, "%H:%M:%S").time()
-    
     target_date = SIMULATION_BASE_DATE + timedelta(days=day_offset)
     target_datetime = target_date.replace(hour=t_obj.hour, minute=t_obj.minute, second=t_obj.second)
-    
     return target_datetime.isoformat() + "Z"
 
-# --- PHASE 1: Data Ingestion (Pydantic Validation Models) ---
-# These exactly match the JSON format of Member B's new massive dataset
+def iso_to_epoch(iso_str):
+    clean_str = iso_str.replace("Z", "+00:00")
+    return int(datetime.fromisoformat(clean_str).timestamp())
 
+def find_corridors_for_all_sections(train_schedule):
+    """Extracts empty track gaps to pass to Member D's engine."""
+    sections = set(t["section_id"] for t in train_schedule)
+    corridors = collections.defaultdict(list)
+    
+    for section_id in sections:
+        section_trains = [t for t in train_schedule if t["section_id"] == section_id]
+        section_trains.sort(key=lambda x: iso_to_epoch(x["corridor_entry_time"]))
+        
+        for i in range(len(section_trains) - 1):
+            current_exit = iso_to_epoch(section_trains[i]["corridor_exit_time"])
+            next_entry = iso_to_epoch(section_trains[i+1]["corridor_entry_time"])
+            gap = next_entry - current_exit
+            if gap > 900: # 15 min buffer
+                corridors[section_id].append((
+                    section_trains[i]["corridor_exit_time"], 
+                    section_trains[i+1]["corridor_entry_time"]
+                ))
+    return dict(corridors)
+
+# --- PYDANTIC VALIDATION MODELS (Updated for Member F's Schema) ---
 class TrainMovementRaw(BaseModel):
     train_no: str
     direction: str
-    section_id: str
+    SectionID: str = Field(..., alias="SectionID")
     start_day: float
     entry_time: str
     end_day: float
     exit_time: str
 
 class MaintenanceTask(BaseModel):
-    task_id: str
-    department: str
-    tier: str = "Tier 3"
-    section_id: str
+    task_id: str = Field(..., alias="task-id")
+    department: str # TMS, TDMS, SMMS
+    SectionID: str = Field(..., alias="SectionID")
+    date: str
+    maintenance_frequency: str # "special", "weekly", "monthly"
     work_duration_mins: int
-    depends_on: Optional[str] = None
-    priority_score: Optional[int] = 0 
 
-class OptimizationRequest(BaseModel):
+class SimulationPayload(BaseModel):
     train_schedule: List[TrainMovementRaw]
     pending_tasks: List[MaintenanceTask]
 
-
-# --- PHASE 3: AI Routing (Member C Integration Placeholder) ---
-
 def invoke_ml_scoring(tasks: List[dict]) -> List[dict]:
-    """
-    Placeholder for Member C's Machine Learning model.
-    Until they provide their predict_risk.py script, this function assigns static baseline scores.
-    """
+    # Simulates Member C's logic - inflates score for delayed/routine tasks
     for task in tasks:
-        if task.get("priority_score") == 0 or not task.get("priority_score"):
-            tier = task.get("tier", "Tier 3")
-            task["priority_score"] = 100 if tier == "Tier 1" else (70 if tier == "Tier 2" else 40)
+        freq = task.get("maintenance_frequency", "special")
+        if "priority_score" not in task:
+            task["priority_score"] = 80 if freq == "special" else 50
     return tasks
 
-
-# --- THE MAIN PIPELINE ENDPOINT ---
-
-@app.get("/api/v1/health")
-def health_check():
-    """Verify the server is running."""
-    return {"status": "Central Routing API is online"}
-
-@app.post("/api/v1/optimize-schedule")
-def optimize_corridors(request: OptimizationRequest):
-    """
-    The central loop connecting the DB, ML, Engine, and Frontend.
-    """
+# --- THE 12:30 AM BATCH PROCESSOR ---
+def run_midnight_batch_job():
+    global DB_ACTIVE_QUEUE, DB_BACKLOG, DB_FINAL_SCHEDULE, DB_RECURRING_RULES
+    print(f"\n--- [12:30 AM BATCH JOB INITIATED at {datetime.now()}] ---")
+    
     try:
-        # PHASE 1: Data Ingestion & Translation Layer
-        raw_tasks = [t.model_dump() for t in request.pending_tasks]
+        # STEP A: Generate Tickets from Recurring Rules (Weekly/Monthly)
+        generated_routine_tasks = []
+        current_epoch = int(datetime.now().timestamp())
         
-        # Translate Member B's custom format into Member D's required ISO format
+        for rule in DB_RECURRING_RULES:
+            anchor_epoch = iso_to_epoch(rule["date"])
+            days_passed = (current_epoch - anchor_epoch) / 86400
+            
+            # If a weekly rule is 7+ days old, spawn a ticket
+            if rule["maintenance_frequency"] == "weekly" and days_passed >= 7:
+                new_task = rule.copy()
+                new_task["task-id"] = f"{rule['task-id']}-AUTO"
+                new_task["secret_id"] = str(uuid.uuid4())
+                new_task["date"] = datetime.now().isoformat() + "Z"
+                generated_routine_tasks.append(new_task)
+                rule["date"] = new_task["date"] # Reset anchor
+                print(f"-> Generated recurring ticket: {new_task['task-id']}")
+
+        # STEP B: Merge ALL THREE Data Sources
+        combined_tasks = DB_ACTIVE_QUEUE + DB_BACKLOG + generated_routine_tasks
+        
+        if not combined_tasks or not DB_TRAIN_SCHEDULE:
+            print("⚠️ No tasks or train schedules found in the database to process.")
+            return
+
+        # STEP C: Map Train Schedule for Gap Extraction
         mapped_train_data = []
-        for raw_train in request.train_schedule:
+        for raw_train in DB_TRAIN_SCHEDULE:
             mapped_train_data.append({
-                "train_id": raw_train.train_no,
-                "section_id": raw_train.section_id,
-                "corridor_entry_time": convert_day_time_to_iso(raw_train.start_day, raw_train.entry_time),
-                "corridor_exit_time": convert_day_time_to_iso(raw_train.end_day, raw_train.exit_time)
+                "train_id": raw_train["train_no"],
+                "section_id": raw_train["SectionID"], # Mapping alias back to internal logic
+                "corridor_entry_time": convert_day_time_to_iso(raw_train["start_day"], raw_train["entry_time"]),
+                "corridor_exit_time": convert_day_time_to_iso(raw_train["end_day"], raw_train["exit_time"])
             })
 
-        # PHASE 2: Gap Extraction 
-        # Member D's engine now receives the exact data structure it was originally built for
         section_corridors = find_corridors_for_all_sections(mapped_train_data)
-
-        # PHASE 3: AI Routing
-        scored_tasks = invoke_ml_scoring(raw_tasks)
-
-        # Prepare keys for Member D's engine
-        for t in scored_tasks:
-            t["priority"] = t["priority_score"]
-
-        # PHASE 4: The Engine Handoff
-        optimization_result = generate_schedule(scored_tasks, section_corridors)
-        scheduled_tasks = optimization_result.get("scheduled_tasks", [])
-
-        # PHASE 5: Backlog & Aging Management
-        scheduled_task_ids = {t["task_id"] for t in scheduled_tasks}
-        backlog = []
         
-        for task in scored_tasks:
-            if task["task_id"] not in scheduled_task_ids:
-                # The solver dropped this task. Apply the Aging function (+10 priority).
-                task["priority_score"] += 10
-                task.pop("priority", None) # Clean up the dictionary
-                backlog.append(task)
+        # Standardize keys for Member D's Engine
+        engine_ready_tasks = []
+        for t in combined_tasks:
+            engine_task = t.copy()
+            engine_task["task_id"] = t["task-id"]
+            engine_task["section_id"] = t["SectionID"]
+            engine_ready_tasks.append(engine_task)
 
-        # PHASE 6: Frontend Delivery
-        return {
-            "status": optimization_result.get("status"),
-            "total_priority_scheduled": optimization_result.get("total_priority"),
-            "scheduled_timeline": scheduled_tasks,
-            "updated_backlog": backlog
-        }
+        scored_tasks = invoke_ml_scoring(engine_ready_tasks)
+        
+        # Run Mathematical Engine
+        optimization_result = generate_schedule(scored_tasks, section_corridors)
+        scheduled_winners = optimization_result.get("scheduled_tasks", [])
+        winner_map = {w["task_id"]: w for w in scheduled_winners}
+
+        # STEP D: The Output Wrapper (Frontend Handoff)
+        final_frontend_payload = []
+        new_backlog = []
+        
+        for original_task in combined_tasks:
+            task_id = original_task["task-id"]
+            if task_id in winner_map:
+                # Task Approved: Attach time bounds
+                original_task["status"] = "Approved"
+                original_task["start_time_iso"] = winner_map[task_id]["start_time_iso"]
+                original_task["end_time_iso"] = winner_map[task_id]["end_time_iso"]
+                final_frontend_payload.append(original_task)
+            else:
+                # Task Rejected: Send to backlog, flag as not approved
+                original_task["status"] = "Not Approved"
+                final_frontend_payload.append(original_task)
+                
+                # Strip the status/time flags before putting back into DB backlog
+                clean_backlog_task = original_task.copy()
+                clean_backlog_task.pop("status", None)
+                new_backlog.append(clean_backlog_task)
+
+        DB_BACKLOG = new_backlog
+        DB_FINAL_SCHEDULE = final_frontend_payload
+        DB_ACTIVE_QUEUE = []  
+
+        print(f"2. Optimization status: {optimization_result.get('status')}")
+        print(f"3. Sent {len(final_frontend_payload)} tasks back to UI. {len(new_backlog)} went to DB backlog.")
+        
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        print(f"❌ Batch job failed with error: {str(e)}")
+
+    print("--- [BATCH JOB COMPLETED] ---\n")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    scheduler = BackgroundScheduler()
+    scheduler.add_job(run_midnight_batch_job, 'cron', hour=0, minute=30)
+    scheduler.start()
+    print("✅ APScheduler active. Waiting for 12:30 AM batch run...")
+    yield
+    scheduler.shutdown()
+
+app = FastAPI(title="Railway Central Routing API", lifespan=lifespan)
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
+
+# --- API ENDPOINTS ---
+@app.post("/api/v1/submit-tasks")
+def submit_tasks(payload: SimulationPayload):
+    global DB_TRAIN_SCHEDULE
+    
+    # Dump using by_alias=True to preserve frontend's exact 'task-id' and 'SectionID' keys
+    DB_TRAIN_SCHEDULE = [t.model_dump(by_alias=True) for t in payload.train_schedule]
+    
+    for task in payload.pending_tasks:
+        task_dict = task.model_dump(by_alias=True)
+        task_dict["secret_id"] = str(uuid.uuid4()) # Injects the secret backend ID
+        DB_ACTIVE_QUEUE.append(task_dict)
+        
+    return {"status": "Success", "message": f"Stored {len(payload.pending_tasks)} ad-hoc tasks."}
+
+@app.post("/api/v1/add-recurring-rule")
+def add_recurring_rule(rule: MaintenanceTask):
+    """Endpoint for Member F's 'Weekly/Monthly Plan' tabs."""
+    rule_dict = rule.model_dump(by_alias=True)
+    rule_dict["secret_id"] = str(uuid.uuid4())
+    DB_RECURRING_RULES.append(rule_dict)
+    return {"status": "Success", "message": f"Recurring rule {rule_dict['task-id']} saved."}
+
+@app.post("/api/v1/trigger-batch-run")
+def force_run():
+    run_midnight_batch_job()
+    return {
+        "status": "Batch run executed!", 
+        "frontend_payload": DB_FINAL_SCHEDULE
+    }
 
 if __name__ == "__main__":
-    # Starts the server on http://localhost:8000
     uvicorn.run(app, host="0.0.0.0", port=8000)
