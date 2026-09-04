@@ -1,41 +1,57 @@
 import requests
 import json
+import time
 
-API_URL = "http://localhost:8000/api/v1/optimize-schedule"
+BASE_URL = "http://localhost:8000/api/v1"
 
+# The input payload remains identical to the frontend's requirement.
+# Do NOT send a secret ID here; the backend must generate it.
 mock_payload = {
     "train_schedule": [
-        {
-            "train_no": "11448",
-            "direction": "UP",
-            "section_id": "HWH_to_BWN",
-            "start_day": 1.0,
-            "entry_time": "14:30:00",
-            "end_day": 1.0,
-            "exit_time": "15:53:00"
-        },
-        {
-            "train_no": "11447",
-            "direction": "DOWN",
-            "section_id": "HWH_to_BWN",
-            "start_day": 2.0,
-            "entry_time": "02:37:00",
-            "end_day": 2.0,
-            "exit_time": "04:15:00"
-        }
+        {"train_no": "11448", "direction": "UP", "SectionID": "HWH_to_BWN", "start_day": 1.0, "entry_time": "14:30:00", "end_day": 1.0, "exit_time": "15:53:00"},
+        {"train_no": "11447", "direction": "DOWN", "SectionID": "HWH_to_BWN", "start_day": 2.0, "entry_time": "02:37:00", "end_day": 2.0, "exit_time": "04:15:00"}
     ],
     "pending_tasks": [
-        {"task_id": "ENG-1", "department": "Engineering", "tier": "Tier 1", "section_id": "HWH_to_BWN", "work_duration_mins": 180},
-        {"task_id": "SIG-99", "department": "Signalling", "tier": "Tier 3", "section_id": "HWH_to_BWN", "work_duration_mins": 400} 
+        {
+            "task-id": "TMS-1", 
+            "department": "TMS", 
+            "SectionID": "HWH_to_BWN", 
+            "date": "2026-09-03T10:00:00Z", 
+            "maintenance_frequency": "special",
+            "work_duration_mins": 180
+        }
     ]
 }
 
-print("Sending translated data to Central Routing API...")
-response = requests.post(API_URL, json=mock_payload)
+mock_rule = {
+    "task-id": "TDMS-1",
+    "department": "TDMS",
+    "SectionID": "HWH_to_BWN",
+    "date": "2026-08-27T10:00:00Z",
+    "maintenance_frequency": "weekly",
+    "work_duration_mins": 120
+}
 
-if response.status_code == 200:
-    print("\n✅ API Success! Backend response:")
-    print(json.dumps(response.json(), indent=2))
+print("☀️  [DAYTIME] Submitting ad-hoc 'special' requests...")
+requests.post(f"{BASE_URL}/submit-tasks", json=mock_payload)
+
+print("⚙️  [MANAGEMENT] Adding a 'weekly' routine maintenance plan...")
+requests.post(f"{BASE_URL}/add-recurring-rule", json=mock_rule)
+
+time.sleep(2) 
+
+print("\n🌙 [MIDNIGHT] Triggering the 12:30 AM batch processor...")
+batch_response = requests.post(f"{BASE_URL}/trigger-batch-run")
+
+print("\n✅ Batch Job Success! Final Output Verification:")
+response_data = batch_response.json()
+print(json.dumps(response_data, indent=2))
+
+# --- VERIFICATION LOOP ---
+print("\n🔍 Verifying Backend Secret IDs:")
+if "scheduled_tasks" in response_data:
+    for task in response_data["scheduled_tasks"]:
+        secret_id = task.get("secret_id", "MISSING_ID")
+        print(f"Task {task.get('task-id')} -> Secret Backend ID: {secret_id}")
 else:
-    print(f"\n❌ API Failed with status code {response.status_code}")
-    print(response.text)
+    print("No tasks were returned by the backend.")
